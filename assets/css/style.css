@@ -3,7 +3,7 @@
   height:200px;
 }
 body{
-  background-image: url(".//images/BG-pattern.png");
+  background-image: url("../images/BG-pattern.png");
   background-repeat: repeat;
 }
 .Int-Background {
