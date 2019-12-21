@@ -1,0 +1,61 @@
+.portrait {
+  width:200px;
+  height:200px;
+}
+body{
+  background-image: url(".//images/BG-pattern.png");
+  background-repeat: repeat;
+}
+.Int-Background {
+  background-color:#f8f9fa;
+  background:white;
+  width:100%;
+  height: auto;
+}
+.logo {
+  background-color:#59AAA5;
+  padding:20px;
+  margin-left: 75px;
+}
+.color-turquoise {
+  color: turquoise;
+}
+.gallery {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.gallery-img {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.gallery h3 {
+  background: #59AAA5;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  margin-left: 15px;
+
+/* I can't get the background on my logo to change color (as a test), couldn't figure out @media */
+
+  @media screen (min-width: 768px) {
+  .div.logo.text-light {
+  width:100%;
+  background-color: yellow;
+  padding:15px;
+    }
+
+    .logo {
+      width:100%;
+      background-color: yellow;
+      padding:15px;
+        }
+
+  }
