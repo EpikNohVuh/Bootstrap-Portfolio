@@ -1,11 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+body{
+  margin-bottom: 120px;
+  background-image: url('../images/Background.gif');
+}
+
+.signature {
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 1px 1px #f8f8ff;
+}
+.container-fluid{
+  background: #BDD5FF;
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  font-weight:bold;
+  color: #007BFF;
+}
 .portrait {
   width:200px;
   height:200px;
+  border-radius: 15%;
+  display:block;
+  background:transparent;
+  padding:8px;
+  border:1px solid #ccc;
+  box-shadow:5px 5px 5px #999; 
 }
-body{
-  background-image: url("../images/BG-pattern.png");
-  background-repeat: repeat;
-}
+
 .Int-Background {
   background-color:#f8f9fa;
   background:white;
@@ -13,12 +38,9 @@ body{
   height: auto;
 }
 .logo {
-  background-color:#59AAA5;
+  background-color:rgb(148, 185, 250);
   padding:20px;
   margin-left: 75px;
-}
-.color-turquoise {
-  color: turquoise;
 }
 .gallery {
   position: relative;
@@ -34,7 +56,8 @@ body{
 }
 
 .gallery h3 {
-  background: #59AAA5;
+  background: #D6DEFF;
+  box-shadow: grey;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -42,20 +65,21 @@ body{
   top: 160px;
   width: 100%;
   margin-left: 15px;
-
+  
+}
+ 
 /* I can't get the background on my logo to change color (as a test), couldn't figure out @media */
 
-  @media screen (min-width: 768px) {
+@media screen (min-width: 768px) {
   .div.logo.text-light {
   width:100%;
   background-color: yellow;
   padding:15px;
     }
 
-    .logo {
-      width:100%;
-      background-color: yellow;
-      padding:15px;
-        }
-
+  .logo {
+  width:100%;
+  background-color: yellow;
+  padding:15px;
   }
+}
